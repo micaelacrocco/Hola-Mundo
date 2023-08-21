@@ -27,6 +27,7 @@ dotnet sln add src/Library/Library.csproj
 dotnet sln add src/Program/Program.csproj
 dotnet sln add test/Library.Tests/Library.Tests.csproj
 
+git add .
 git commit -m "Se genera el proyecto"
-gti push
+git push
 git pull
